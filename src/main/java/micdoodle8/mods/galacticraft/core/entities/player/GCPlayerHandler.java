@@ -647,7 +647,7 @@ public class GCPlayerHandler
         {
             if (((IGalacticraftWorldProvider) world.provider).getMeteorFrequency() > 0)
             {
-                final int f = (int) (((IGalacticraftWorldProvider) world.provider).getMeteorFrequency() * 1000D);
+                final int f = (int) (((IGalacticraftWorldProvider) world.provider).getMeteorFrequency() * 650D);
 
                 if (world.rand.nextInt(f) == 0)
                 {
